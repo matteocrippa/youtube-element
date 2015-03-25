@@ -1,0 +1,36 @@
+{
+  "name": "seed-element",
+  "authors": [
+    "Anonymous <anonymous@example.com>"
+  ],
+  "description": "Element providing solution to no problem in particular.",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "seed"
+  ],
+  "main": "seed-element.html",
+  "license": "MIT",
+  "homepage": "https://github.com/<USERNAME>/seed-element/",
+  "ignore": [
+    "/.*",
+    "/tests/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.5.4"
+  },
+  "devDependencies": {
+    "web-component-tester": "*"
+  },
+  "_release": "a3c249e753",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "a3c249e75373738fa14099657edd4818eae432ab"
+  },
+  "_source": "git://github.com/matteocrippa/youtube-element.git",
+  "_target": "master",
+  "_originalSource": "matteocrippa/youtube-element",
+  "_direct": true
+}

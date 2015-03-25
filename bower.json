@@ -1,0 +1,7 @@
+{
+  "name": "youtube-element#gh-pages",
+  "private": true,
+  "dependencies": {
+    "seed-element": "matteocrippa/youtube-element#master"
+  }
+}
