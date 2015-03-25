@@ -1,22 +1,27 @@
 {
-  "name": "seed-element",
-  "version": "0.0.0",
+  "name": "youtube-element",
+  "version": "0.1",
   "authors": [
-    "Anonymous <anonymous@example.com>"
+    "github@matteocrippa.it"
   ],
-  "description": "Element providing solution to no problem in particular.",
+  "description": "Youtube element for Polymer",
   "keywords": [
-    "web-component",
-    "web-components",
     "polymer",
-    "seed"
+    "youtube",
+    "video"
   ],
   "main": "seed-element.html",
   "license": "MIT",
-  "homepage": "https://github.com/<USERNAME>/seed-element/",
+  "homepage": "https://github.com/matteocrippa/youtube-element",
   "ignore": [
     "/.*",
-    "/tests/"
+    "/tests/",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "../",
+    "test",
+    "tests"
   ],
   "dependencies": {
     "polymer": "Polymer/polymer#^0.5.4"
