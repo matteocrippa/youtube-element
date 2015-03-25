@@ -1,0 +1,77 @@
+<!--
+    @license
+    Copyright (c) 2014 The Polymer Project Authors. All rights reserved.
+    This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+    The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+    The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+    Code distributed by Google as part of the polymer project is also
+    subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+Easy youtube embedding.
+
+##### Example
+
+    <youtube></youtube>
+
+@element youtube
+@blurb Allow you to easily embed a youtube video in your page.
+@status alpha
+@homepage http://matteocrippa.it
+-->
+<polymer-element name="youtube-video" attributes="video width height">
+
+  <template>
+
+    <iframe type="text/html" width="{{width}}" height="{{height}}"
+  src="http://www.youtube.com/embed/{{video}}?autoplay={{autoplay}}"
+  frameborder="0"></iframe>
+
+  </template>
+
+  <script>
+
+    Polymer('youtube-video',{
+      /**
+       * The `video` attribute sets the video to be played
+       *
+       * @attribute video
+       * @type string
+       * @default ''
+       */
+      video: '',
+
+      /**
+       * The `height` attribute sets the video player height
+       *
+       * @attribute height
+       * @type number
+       * @default '390'
+       */
+      height: 390,
+
+      /**
+       * The `width` attribute sets the video player width
+       *
+       * @attribute width
+       * @type number
+       * @default '640'
+       */
+      width: 640,
+
+      /**
+       * The `autoplay` attribute sets the video player autoplay
+       *
+       * @attribute autoplay
+       * @type number
+       * @default '1'
+       */
+      width: 1
+
+    });
+
+  </script>
+
+</polymer-element>
